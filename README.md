@@ -14,7 +14,7 @@ Documentation: https://apidock.com/rails/v4.0.2/ActiveRecord/Relation/update
 
 ## How is this different to the `update` method?
 
-The `update_all` method is special because it's a *WAY* faster. Here is why:
+The `update_all` method is special because it is *WAY* faster. Here is why:
 
 ### It does not instantiate the active record models
 

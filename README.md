@@ -4,7 +4,7 @@
 
 This repo is the example repo used for a video lesson for this specific video:
 
-TODO: add video url
+https://youtu.be/5BJNeNlH3iA
 
 ## What is the update_all method?
 

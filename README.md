@@ -51,6 +51,6 @@ The most surefire way to make sure your code stays bug free as your code evolves
 
 When performance/speed matters especially in the context of doing huge batch updates.
 
-I would deter developers from using the `update_all` method in code that can be run arbrtically from user actions, in other words, I would avoid using `update_all` in user facing application logic. 
+I would deter developers from using the `update_all` method in code that can be run arbitrarily from user actions, in other words, I would avoid using `update_all` in user facing application logic. 
 
 Ideally, developers use `update_all` as an manually ran ruby script or rake task where every time the `update_all` code is run, there is a specific understanding of the consequences of said code.

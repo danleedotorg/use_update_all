@@ -13,7 +13,7 @@ class User < ApplicationRecord
                             end
   end
 
-  after_commit do |user|
+  after_update do |user|
     user.check_bio_for_tos
     user.email_that_user_info_changed
   end
